@@ -12,7 +12,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name="django-logtailer",
+    name="nucoro-django-logtailer",
     version=version,
     url='https://github.com/fireantology/django-logtailer',
     license='BSD',
